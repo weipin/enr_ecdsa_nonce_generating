@@ -10,3 +10,7 @@ hex-literal = "0.3.4"
 secp256k1 = { version = "0.24.0", features = ["global-context", "std", "rand-std"]}
 k256 = "0.11.5"
 enr = { version = "0.6.2", features = ["k256", "rust-secp256k1"]}
+
+[[example]]
+path = "examples/int_decoding.rs"
+name = "int_decoding"
